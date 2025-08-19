@@ -1,6 +1,7 @@
 public class Prac10{
     public static void main(String[] args){
-        byte byte1 = 127;
+        System.out.println("\nImplicit Type Casting:");
+        byte byte1 = 110;
         System.out.println("Byte: "+byte1);
         char char1 = (char)byte1;
         System.out.println("Char: "+char1);
@@ -13,6 +14,7 @@ public class Prac10{
         double doubleN = floatN;
         System.out.println("Double: "+doubleN);
 
+        System.out.println("\nExplicit Type Casting:");
         double d2 = -15.2629739;
         System.out.println("Double: "+d2);
         float f2 = (float)d2;
