@@ -5,7 +5,7 @@ public class Prac1 {
     }
 }
 
-public class Student{
+class Student{
     String name;
     String id;
     String course;
