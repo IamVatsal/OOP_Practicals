@@ -1,22 +1,23 @@
 public class Prac1 {
     public static void main(String[] args) {
-        Student st1 = new Student("Vatsal", "24012011142", "Computer Engineering");
+        Student st1 = new Student();
+        st1.setDetails("Vatsal", 142, "Computer Engineering");
         st1.display();
     }
 }
 
 class Student{
-    String name;
-    String id;
-    String course;
+    private String name;
+    private int id;
+    private String course;
 
-    public Student(String name, String id, String course) {
-        this.name = name;
-        this.id = id;
-        this.course = course;
+    public Student() {
+        this.name = "Unknown";
+        this.id = 0;
+        this.course = "Unknown";
     }
 
-    public void setDetails(String name,String id,String course){
+    public void setDetails(String name,int id,String course){
         this.name = name;
         this.id = id;
         this.course = course;
