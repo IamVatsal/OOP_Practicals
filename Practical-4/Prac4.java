@@ -5,7 +5,7 @@ public class Prac4 {
         person1.displayInfo();
 
         System.out.println("\nPerson2 Details:");
-        Person person2 = new Person("Preet");
+        Person person2 = new Person("Janvi");
         person2.displayInfo();
 
         System.out.println("\nPerson3 Details:");

@@ -1,6 +1,6 @@
 public class Prac8{
     public static void main(String[] args){
-        double num = Double.parseDouble(args[0]);
+        int num = Integer.parseInt(args[0]);
         System.out.println("Number: " + num);
         System.out.print("Factors: ");
         for(int i = 1; i <= num/2; i++){
@@ -8,5 +8,6 @@ public class Prac8{
                 System.out.print(i + " ");
             }
         }
+        System.out.println(num);
     }
 }
