@@ -14,12 +14,12 @@ class Exam {
     int externalMarks;
 
     Exam(String name, int roll, String code, String subject, int internal, int external) {
-        stu_name = name;
-        rollno = roll;
-        sub_code = code;
-        sub_name = subject;
-        internalMarks = internal;
-        externalMarks = external;
+        this.stu_name = name;
+        this.rollno = roll;
+        this.sub_code = code;
+        this.sub_name = subject;
+        this.internalMarks = internal;
+        this.externalMarks = external;
     }
 
     void Calculate_result() {
